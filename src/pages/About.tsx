@@ -6,33 +6,33 @@ const cards = [
     {
         title: "Java Script",
         description: "Linguagem essencial para desenvolvimento web, criando interatividade e funcionalidades dinâmicas em front-end e back-end.",
-        image: "src/assets/logos/js.png"
+        image: "public/logos/js.png"
     },
     {
         title: "React.js",
         description: "Biblioteca JavaScript para construção de interfaces de usuário dinâmicas e eficientes, com foco em componentes reutilizáveis.",
-        image: "src/assets/logos/logo_dark.svg"
+        image: "public/logos/react.svg"
     },
     {
         title: "TypeScript",
         description: "Superset do JavaScript que adiciona tipagem estática, garantindo maior segurança e escalabilidade no código.",
-        image: "src/assets/logos/ts-logo-128.svg"
+        image: "public/logos/ts.svg"
 
     },
     {
         title: "Tailwind CSS",
         description: "Um framework CSS utilitário repleto de classes que podem ser compostas para construir qualquer design, diretamente em sua marcação.",
-        image: "src/assets/logos/tailwindcss-mark.d52e9897.svg"
+        image: "public/logos/tailwindcss.svg"
     },
     {
         title: "PHP",
         description: "Uma linguagem de script popular de uso geral que é especialmente adequada para desenvolvimento web. Rápido, flexível e pragmático.",
-        image: "src/assets/logos/new-php-logo.svg"
+        image: "public/logos/php.svg"
     },
     {
         title: "laravel",
         description: "Um framework PHP com um ecossistema robusto, o Laravel tem soluções elegantes para os recursos comuns necessários a todos os aplicativos da web modernos.",
-        image: "src/assets/logos/laravel.svg"
+        image: "public/logos/laravel.svg"
     }
 ]
 function About() {
@@ -65,7 +65,7 @@ function About() {
                     animate={{ scale: [0.8, 1], opacity: [0.1, 1], }}
                     transition={{ duration: 0.8 }} className="flex justify-center items-center h-80 md:h-full w-full rounded-sm p-6 md:p-24 md:w-2/5 ">
                     <div className="w-full h-full md:aspect-square relative">
-                        <img className="object-cover w-full h-full rounded-sm" alt="Foto do desenvolvedor" src="src/assets/ErosPraia.jpg" />
+                        <img className="object-cover w-full h-full rounded-sm" alt="Foto do desenvolvedor" src="public/praia.jpg" />
                     </div>
                 </motion.div>
             </div>

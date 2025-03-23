@@ -12,7 +12,7 @@ function Home() {
 
                         className="flex justify-center items-center h-80 md:h-full w-full bg-gradient-to-b to-gray-primary from-gray-secundary rounded-sm p-6 md:p-12 md:w-1/2">
                         <div className="flex-1 flex flex-wrap h-full w-full relative">
-                            <img className="object-cover absolute inset-0 w-full h-full rounded-sm" alt="Foto do desenvolvedor" src="src/assets/Eros_banco.jpg" />
+                            <img className="object-cover absolute inset-0 w-full h-full rounded-sm" alt="Foto do desenvolvedor" src="public/banco.jpg" />
                         </div>
                     </motion.div>
 
